@@ -27,7 +27,7 @@ $(".saveBtn").on("click", function () {
        
         $(".container").prepend(createDiv); 
 
-        //after 3 seconds, the showAdded disappear
+        //after 2 seconds, the showAdded disappear
         setTimeout(fade_out, 2000);
 
         function fade_out() {
